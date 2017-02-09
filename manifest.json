@@ -1,10 +1,10 @@
 {
-  "manifest_version": 2,
-  "name": "Netflix Pause Removal",
-  "version": "1.1.0",
-  "description": "Remove the pause between netflix episodes",
+  "manifest_version": 4,
+  "name": "Gomify Netflix",
+  "version": "2.0.0",
+  "description": "1. Remove the continue watching popup from netflix. 2. Remove the pause between episodes. 3. When seeking with the arrow keys don't pause 4. Add ctrl+arrow(60sec) and shift+arrow(5mins) hot key seeking.",
   "content_scripts": [{
-  "matches":["*://www.netflix.com/*"],
-  "js":["background.js"]
+	  "matches":["*://www.netflix.com/*"],
+	  "js":["jquery-3.1.1.min.js", "background.js"]
   }]
 }
