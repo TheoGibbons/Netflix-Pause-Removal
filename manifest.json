@@ -2,7 +2,7 @@
   "manifest_version": 4,
   "name": "Gomify Netflix",
   "version": "2.0.0",
-  "description": "1. Remove the continue watching popup from netflix. 2. Remove the pause between episodes. 3. When seeking with the arrow keys don't pause 4. Add ctrl+arrow(60sec) and shift+arrow(5mins) hot key seeking.",
+  "description": "1. Remove the continue watching popup from netflix. 2. Remove the pause between episodes. 3. When seeking with the arrow keys don't pause 4. Add ctrl+arrow(60sec) and shift+arrow(5mins) hot key seeking. 5. While the 'Skip intro' button is showing pressing spacebar will press that button. 6. Add imdb and rotten tomato ratings to movies in Netflix's jawbone.",
   "content_scripts": [{
 	  "matches":["*://www.netflix.com/*"],
 	  "js":["jquery-3.1.1.min.js", "background.js"]
